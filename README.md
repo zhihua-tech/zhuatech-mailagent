@@ -1,5 +1,7 @@
 # ZhuaTech Mail Agent｜知华科技智能邮件助手系统
 
+[简体中文](README.md) | [English](README.en.md)
+
 ## 企业级邮件外发治理
 
 新增敏感信息、外部收件人、DLP、安全扫描、人工审批和保留标签控制，详见 [邮件外发治理](docs/ENTERPRISE_OUTBOUND_GOVERNANCE.md)。
