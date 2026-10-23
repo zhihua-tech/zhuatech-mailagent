@@ -1,5 +1,11 @@
 [简体中文](README.md) | **English**
 
+## 2026-10-23: Recipient and attachment delivery preflight
+
+This update implements **Recipient and attachment delivery preflight** on the backend, with structured input, explicit validation, evidence or exception details, and a responsive utility page at `/practical.html`. Results are computed from submitted data, not fixed demo responses.
+
+The new endpoint is disabled (503) until the administrator sets an independent 32–256 printable ASCII character ZHUATECH_PRACTICAL_TOKEN. Enter it in the utility page; it is kept only in page memory, never embedded in source or browser storage. Use `POST /api/practical/recipient-delivery-preflight`. No external model invocation or business posting occurs. See [algorithm, sample, boundaries and test commands](docs/AI_MULTIMODAL_UPGRADE_20261023.md).
+
 # ZhuaTech Mail Agent
 
 > A source-available enterprise project by [ZhuaTech](https://www.zhuatech.cn/) for enterprise AI-assisted workflows with human governance.
